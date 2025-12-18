@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "alchemx",
+	"version": "${version}",
+	"name": "AlchemX",
+	"description": "Combine tools, weapons, armour and items into powerful new things!",
+	"authors": [
+		"Emily (@DruidOfThePyre)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/alchemx/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.druidofthepyre.alchemx.AlchemX"
+		],
+		"fabric-datagen": [
+			"net.druidofthepyre.alchemx.AlchemXDataGenerator"
+		],
+		"client": [
+			"net.druidofthepyre.alchemx.AlchemXClient"
+		]
+	},
+	"mixins": [
+		"alchemx.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
