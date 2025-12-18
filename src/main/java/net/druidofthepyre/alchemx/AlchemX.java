@@ -1,5 +1,6 @@
 package net.druidofthepyre.alchemx;
 
+import net.druidofthepyre.alchemx.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class AlchemX implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
