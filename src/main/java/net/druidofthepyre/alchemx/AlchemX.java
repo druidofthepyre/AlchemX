@@ -1,5 +1,6 @@
 package net.druidofthepyre.alchemx;
 
+import net.druidofthepyre.alchemx.block.ModBlocks;
 import net.druidofthepyre.alchemx.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class AlchemX implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

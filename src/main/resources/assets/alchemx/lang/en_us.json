@@ -1,4 +1,6 @@
 {
   "item.alchemx.abyssite_shard": "Abyssite Shard",
-  "item.alchemx.abyssite_crystal": "Abyssite Crystal"
+  "item.alchemx.abyssite_crystal": "Abyssite Crystal",
+
+  "block.alchemx.abyssite_block": "Abyssite Block"
 }

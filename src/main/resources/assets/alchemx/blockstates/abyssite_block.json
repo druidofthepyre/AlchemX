@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "alchemx:block/abyssite_block"
+    }
+  }
+}
