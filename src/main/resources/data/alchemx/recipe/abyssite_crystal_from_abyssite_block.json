@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+  {
+    "item": "alchemx:abyssite_block"
+  }
+],
+  "result": {
+    "count": 9,
+    "id": "alchemx:abyssite_crystal"
+  }
+}

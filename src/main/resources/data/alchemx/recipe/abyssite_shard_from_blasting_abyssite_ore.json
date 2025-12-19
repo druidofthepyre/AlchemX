@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "id": "alchemx:abyssite_ore"
+    }
+  ],
+  "result": {
+    "id": "alchemx:abyssite_shard"
+  }
+}
